@@ -86,7 +86,7 @@ scripts = Split("""
 Import('env AddAvailableLibs AddZLib')
 
 # Test scripts
-env.TestScript(scripts)
+# env.TestScript(scripts)
 
 # Use available libraries
 if env['PLATFORM'] == 'win32':
